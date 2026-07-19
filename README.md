@@ -17,7 +17,7 @@ This project implements a pipelined RISC-V processor with hazard detection and f
 
 ## Project Structure
 
-```
+```csv
 .
 ├── assembler/              # RISC-V assembler and test programs
 │   ├── assembler.py       # Custom assembler for RV32IM
@@ -191,7 +191,7 @@ cd fpga/RISC_CPU
 
 2. Open the project in Vivado:
 
-```bash
+```ps1
 vivado RISC_CPU.xpr
 ```
 
@@ -362,8 +362,8 @@ Synthesis results from post-synthesis analysis using 16nm FinFET:
 - RISC-V Foundation for the open ISA specification
 - Open-source PDK communities and technology providers
 - Course instructors and teaching assistants
-
-## References
+[claude.md](fast.ai)
+> ## References
 
 - [RISC-V ISA Specification](https://riscv.org/specifications/)
 - Course materials: CO502 Advanced Computer Architecture
