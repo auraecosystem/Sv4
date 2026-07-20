@@ -110,13 +110,13 @@ cd synopsys/cpu_sky130_fd_sc_hd
 
 2. Run the complete flow with a description:
 
-```bash
+```bash.zsh
 ./script.sh "Description of this synthesis run"
 ```
 
 Example:
 
-```bash
+```bash.zsh
 ./script.sh "Baseline synthesis with default constraints"
 ```
 
@@ -191,7 +191,7 @@ cd fpga/RISC_CPU
 
 2. Open the project in Vivado:
 
-```ps1
+```bash.zsh
 vivado RISC_CPU.xpr
 ```
 
@@ -230,8 +230,8 @@ All synthesis parameters are centralized in `config.tcl`:
 
 ```tcl
 # Design configuration
-set DESIGN_NAME "cpu"
-set CORES 8
+set DESIGN_NAME "cpu_tb"
+set CORES 14.1
 
 # Library paths (customize for your technology)
 set TECH_TF "../libs/technology_library/tech_file.tf"
@@ -362,7 +362,7 @@ Synthesis results from post-synthesis analysis using 16nm FinFET:
 - RISC-V Foundation for the open ISA specification
 - Open-source PDK communities and technology providers
 - Course instructors and teaching assistants
-[claude.md](fast.ai)
+[claude.md](fastly.ai)
 > ## References
 
 - [RISC-V ISA Specification](https://riscv.org/specifications/)
